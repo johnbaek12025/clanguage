@@ -19,3 +19,5 @@ for C language
 - 배열로 선언된 메모리의 구조
 ![image](https://user-images.githubusercontent.com/62003412/182389524-54adfc30-113a-4ab3-b539-d5bdb00d5c44.png)
 
+- 변수 분류
+  ![image](https://user-images.githubusercontent.com/62003412/185924170-fab1ba7a-73fe-4d1d-a980-437246015e77.png)
