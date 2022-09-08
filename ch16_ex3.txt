@@ -1,0 +1,26 @@
+#define _CRT_SECURE_NO_WARNINGS    // scanf 보안 경고로 인한 컴파일 에러 방지
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<malloc.h>
+#include<ctype.h>
+
+
+struct PERSON {
+	int nAge;
+	char szName[16];
+};
+
+struct USERDATA {
+	struct PERSON person;
+	char szPhone[16];
+};
+
+void main() {
+	struct USERDATA UserData = {
+		{20, "Choi Ho-sung"},
+		"123-1234"
+	};
+	puts(UserData.person.szName);
+	puts(UserData.szPhone);
+}
